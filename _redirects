@@ -1,0 +1,3 @@
+# Cloudflare Pages resolves clean/extensionless URLs and slug/index.html natively.
+# No redirect rules needed at this stage. Add only genuine cross-domain/legacy-path
+# redirects here if one is ever required — never mix 200 rewrites with 301s.
