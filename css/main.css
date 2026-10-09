@@ -288,3 +288,32 @@ footer address{font-style:normal;color:var(--gray);margin-bottom:8px}
   .panel-card,.callout-card,.insight-card{padding:30px 24px;border-radius:16px;max-width:100%}
   .cards,.why,.rel,.factors,.areas,.footer-grid{grid-template-columns:1fr}
 }
+
+/* Paragraph spacing (global reset removes all margins) */
+.sec p+p,.insight-card p+p,.callout-card p+p,.panel-card p+p,.faq-answer p+p,.pagehead p+p{margin-top:1.1em}
+.sec .wrap-narrow>p,.sec .wrap-narrow>ul,.sec .wrap-narrow>ol{margin-bottom:1.25em}
+.sec .wrap-narrow>h2{margin:1.8em 0 .6em;line-height:1.2}
+.sec .wrap-narrow>h2:first-child{margin-top:0}
+.sec .wrap-narrow>h3{margin:1.5em 0 .5em;line-height:1.25}
+.sec p+.h2-sub,.sec .insight-card+p,.sec .callout-card+p{margin-top:1.1em}
+.sec .h2-sub{margin:8px 0 24px;line-height:1.2}
+.sec .insight-card,.sec .callout-card{margin-bottom:8px}
+.sec .insight-card>p:last-child,.sec .callout-card>p:last-child{margin-bottom:0}
+.sec .ctaband h2{color:#fff;margin:0 0 8px}
+.sec .ctaband p{margin:0 auto 24px}
+.sec .ctaband-inline{margin:2em 0}
+.note-text{margin-top:18px;line-height:1.7}
+.sec p{line-height:1.7}
+.faq-answer p{line-height:1.65}
+.sec .kick-inline{margin-top:52px}
+.sec .insight-card+p,.sec .callout-card+p,.sec .note-text{margin-top:20px}
+.sec .insight-card+p,.sec .callout-card+p{margin-bottom:0}
+.sec .faq{margin-bottom:8px}
+@media(max-width:700px){.sec .kick-inline{margin-top:40px}.sec .wrap-narrow>h2{margin-top:1.5em}}
+
+/* call-intelligence enrichment components */
+.insight-card h3,.callout-card h3{font-size:19px;line-height:1.3;margin:1.3em 0 .35em}
+.insight-card h3:first-child,.callout-card h3:first-child{margin-top:0}
+.sec .insight-card+.callout-card,.sec .callout-card+.insight-card,.sec .insight-card+.insight-card,.sec .insight-card+.boxgrid{margin-top:22px}
+.sec .boxgrid+.note-text{margin-top:20px}
+.insight-card p a,.callout-card li a{color:var(--coral-d);font-weight:700}
