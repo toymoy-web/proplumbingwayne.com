@@ -317,3 +317,13 @@ footer address{font-style:normal;color:var(--gray);margin-bottom:8px}
 .sec .insight-card+.callout-card,.sec .callout-card+.insight-card,.sec .insight-card+.insight-card,.sec .insight-card+.boxgrid{margin-top:22px}
 .sec .boxgrid+.note-text{margin-top:20px}
 .insight-card p a,.callout-card li a{color:var(--coral-d);font-weight:700}
+
+/* location photos */
+.locfig{margin:0}
+.locfig img{width:100%;height:auto;border-radius:14px;object-fit:cover;background:var(--soft)}
+.locfig-hero{margin-bottom:34px}
+.locfig-hero img{aspect-ratio:16/9;box-shadow:0 14px 34px rgba(30,35,44,.14)}
+.photosplit .locfig-side{margin-bottom:18px}
+.photosplit .locfig-side img{aspect-ratio:16/9;box-shadow:0 10px 26px rgba(30,35,44,.12)}
+.photosplit>.insight-card,.photosplit>.callout-card{margin:0}
+@media(max-width:640px){.locfig-hero{margin-bottom:24px}}
