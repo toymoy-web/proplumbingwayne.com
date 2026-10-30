@@ -327,3 +327,9 @@ footer address{font-style:normal;color:var(--gray);margin-bottom:8px}
 .photosplit .locfig-side img{aspect-ratio:16/9;box-shadow:0 10px 26px rgba(30,35,44,.12)}
 .photosplit>.insight-card,.photosplit>.callout-card{margin:0}
 @media(max-width:640px){.locfig-hero{margin-bottom:24px}}
+
+/* footer social */
+footer .social{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px;align-items:center}
+footer .social-lbl{width:100%;color:var(--ink);font-family:var(--font-head);font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.06em}
+footer .social a{display:inline-block;margin:0;padding:6px 12px;border:1px solid var(--line);border-radius:100px;font-size:13px;font-weight:600;color:var(--ink);background:#fff}
+footer .social a:hover,footer .social a:focus-visible{border-color:var(--coral);color:var(--coral-d)}
